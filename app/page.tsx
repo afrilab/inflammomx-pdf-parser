@@ -75,7 +75,7 @@ const COLUMNS = [
 
 const FIELD_RULES: Record<
   string,
-  { keywords: string[]; preferred: string[] }
+  { keywords: string[]; preferred: string[]; out?: string; short?: string }
 > = {
   Disease: {
     keywords: [
