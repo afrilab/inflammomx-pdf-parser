@@ -588,7 +588,7 @@ function rewriteEvidence(text: string) {
     /participants were included/i.test(t)
   ) {
     const m = t.match(
-      /(\d+)\s+participants.*?\((\d+).*?mixed diet.*?(\d+).*?supplement.*?(\d+).*?high-fibre/si
+      /(\d+)\s+participants.*?\((\d+).*?mixed diet.*?(\d+)[\s\S]*?(\d+)[\s\S]*?supplement[\s\S]*?(\d+)[\s\S]*?high-fibre/i
     );
 
     if (m) {
