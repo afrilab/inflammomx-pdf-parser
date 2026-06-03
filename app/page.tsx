@@ -137,6 +137,7 @@ const FIELD_RULES: Record<
   "Cohort Age": {
     keywords: ["age", "aged", "years old", "mean age", "median age"],
     preferred: ["Methods", "Results"],
+    out: "Cohort Age",
     short: "Cohort Age - Short Answer",
   },
   "Cohort Sex": {
@@ -164,6 +165,7 @@ const FIELD_RULES: Record<
       "multiple testing",
     ],
     preferred: ["Methods"],
+    out: "Statistical Analysis",
     short: "Statistical Analysis - Short Answer",
   },
   Tissue: {
